@@ -21,7 +21,7 @@ Quick view
 -----------
 
 ```go
-import "github.com/kataras/go-sessions/v3"
+import "github.com/bh90210/go-sessions/v3"
 
 sess := sessions.Start(http.ResponseWriter, *http.Request)
 sess.
@@ -53,7 +53,7 @@ Installation
 The only requirement is the [Go Programming Language](https://golang.org/dl), at least 1.14.
 
 ```bash
-$ go get github.com/kataras/go-sessions/v3
+$ go get github.com/bh90210/go-sessions/v3
 ```
 
 **go.mod**
@@ -64,7 +64,7 @@ module your_app
 go 1.14
 
 require (
-	github.com/kataras/go-sessions/v3 v3.3.0
+	github.com/bh90210/go-sessions/v3 v3.3.0
 )
 ```
 
@@ -251,7 +251,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3"
 )
 
 type businessModel struct {
@@ -415,7 +415,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kataras/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3"
 	"github.com/valyala/fasthttp"
 )
 

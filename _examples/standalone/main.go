@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3"
 )
 
 type businessModel struct {

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/bh90210/go-sessions/v3"
 	"github.com/gorilla/securecookie"
-	"github.com/kataras/go-sessions/v3"
 )
 
 func main() {

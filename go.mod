@@ -1,4 +1,4 @@
-module github.com/kataras/go-sessions/v3
+module github.com/bh90210/go-sessions/v3
 
 go 1.14
 

@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kataras/go-sessions/v3"
-	"github.com/kataras/go-sessions/v3/sessiondb/dgraph"
+	"github.com/bh90210/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3/sessiondb/dgraph"
 	"google.golang.org/grpc"
 )
 

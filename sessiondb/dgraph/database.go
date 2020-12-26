@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kataras/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3"
 
 	"github.com/dgraph-io/dgo/v200"
 	"github.com/dgraph-io/dgo/v200/protos/api"

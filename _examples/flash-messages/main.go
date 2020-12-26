@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kataras/go-sessions/v3"
+	"github.com/bh90210/go-sessions/v3"
 )
 
 func main() {
